@@ -1,0 +1,24 @@
+{
+  "lstm_extension": {
+    "epochs_max": 25,
+    "sequence_length": 22,
+    "hidden_size": 32,
+    "dropout": 0.15,
+    "optimizer": "Adam",
+    "early_stopping_patience": 7,
+    "data_vintages": [
+      "current_CIZ",
+      "Dec_2024_FIZ_archive"
+    ],
+    "current_forecast_counts": {
+      "1": 2448,
+      "5": 2444,
+      "21": 2428
+    },
+    "fiz_forecast_counts": {
+      "1": 2011,
+      "5": 2007,
+      "21": 1991
+    }
+  }
+}

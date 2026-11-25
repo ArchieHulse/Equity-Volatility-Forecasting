@@ -1,0 +1,44 @@
+{
+  "note": "Using user-provided raw files staged in data/raw.",
+  "current_ciz_sample": {
+    "start": "1990-01-02",
+    "end": "2026-09-30",
+    "n_observations": 9254
+  },
+  "dec_2024_fiz_archive_sample": {
+    "start": "1990-01-02",
+    "end": "2024-12-31",
+    "n_observations": 8817
+  },
+  "split_dates": {
+    "train_end": "2009-12-31",
+    "validation_end": "2016-12-31",
+    "test_start": "2017-01-01"
+  },
+  "user_provided_sources": {
+    "current_CIZ": {
+      "file": "fama_french_5_factors_daily_ciz.csv",
+      "sha256": "0128e9cae82bc347b9c2c1670dcf7d2bf1f1c3b87ddd0976ba50d229882d3ceb",
+      "bytes": 1019175
+    },
+    "Dec_2024_FIZ_archive": {
+      "file": "fama_french_5_factors_daily_fiz_2024.csv",
+      "sha256": "7ba5732372fe6025369bd2aaf9a01a1f783207f226a437337446dda2a69381eb",
+      "bytes": 990967
+    },
+    "FRED_VIXCLS": {
+      "file": "fred_vixcls.csv",
+      "sha256": "f35282907b8ac347a0279f47b08214939262315c4c8d52bffd5883e19ca5e263",
+      "bytes": 171695
+    }
+  },
+  "package_versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "xgboost": "3.1.3",
+    "torch": "2.10.0+cpu",
+    "numba": "0.65.1"
+  }
+}

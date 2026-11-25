@@ -1,0 +1,5 @@
+cff-version: 1.2.0
+message: "If you use this research code, cite the upstream data sources listed in README.md."
+title: "Volatility Forecasting with Econometric and Machine-Learning Models"
+type: software
+license: MIT
