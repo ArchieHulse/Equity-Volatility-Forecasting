@@ -2,8 +2,8 @@
 
 <div align="center">
   <img
-    src="outputs/figures/volatility_target_equity_curves.png"
-    alt="Out-of-sample growth of $1: buy-and-hold versus volatility-targeted strategies, 2017–2026"
+    src="./volatility_target_equity_curves.png"
+    alt="Volatility Targeting Strategy Performance"
     width="100%"
   >
 </div>
